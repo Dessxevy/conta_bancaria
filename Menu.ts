@@ -1,8 +1,8 @@
 import readlinesync = require("readline-sync");
-import { colors } from "./scr/util/Colors";
-import { Conta } from "./scr/model/Conta";
-import { ContaPoupanca } from "./scr/model/ContaPoupanca";
-import { ContaCorrente } from "./scr/model/ContaCorrente";
+import { colors } from "./src/util/Colors";
+import { Conta } from "./src/model/Conta";
+import { ContaPoupanca } from "./src/model/ContaPoupanca";
+import { ContaCorrente } from "./src/model/ContaCorrente";
 export function main() {
 
     let opcao: number;
